@@ -6,3 +6,5 @@
 index.html - Base Html document 
 
 app.css - CSS file that corresponds to Html doc
+
+app.js - JS file that corresponds to Html doc
