@@ -1,0 +1,78 @@
+/* CSS for Blogged */
+
+html{
+    font-family: 'Sriracha', cursive;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul#menu li{
+    display: inline;
+    padding:0.5em;
+}
+
+nav{
+    list-style: none;
+}
+
+.landingPage{
+    background-color:#94dbc6;
+}
+
+.landingPage h5{
+    font-size: 3em;
+    padding: 0.5em;
+    padding-left: 4em;
+}
+
+.landingPage h4{
+    font-size: 1em;
+    padding: 0.5em;
+    padding-left: 36em;
+    padding-top: 0.1em;
+}
+
+#button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 45em;
+}
+
+.offers{
+    /* font-size: 2em; */
+    background-color: beige;
+    font-family: 'Slabo 27px', serif;
+}
+
+h3#title{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 27em;
+    font-size: 1.5em;
+}
+
+p#para{
+    font-size: 1.2em;
+    padding-left: 27.7em;
+    padding-right: 27.7em;
+    padding-top: 0em;
+    padding-bottom: 0.5em;
+    padding-top: 0em;
+}
+
+hr{
+    width: 22em;
+
+}
+
