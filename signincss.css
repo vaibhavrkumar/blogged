@@ -1,0 +1,57 @@
+h1{
+  font-family:"Trebuchet MS";
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+p{
+font-family:"Trebuchet MS";
+  font-size: 1em;
+  text-align: center;
+}
+button.email, button.fb, button.G{
+  font-family:"Trebuchet MS";
+  font-size: 1em;
+  display:block;
+  margin: 0 auto;
+}
+
+img.logo{
+  width: 15em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+header{
+  background-color: black;
+}
+
+body{
+  vertical-align: middle;
+}
+footer{
+  background-color: black;
+  font-family:"Trebuchet MS";
+  font-size: 1em;
+  vertical-align: text-bottom;
+  height: 20em;
+
+}
+ul{
+  color: white;
+  list-style: none;
+
+}
+ul a:link{
+  color: white;
+}
+
+ul a:visited{
+
+  color: white;
+}
+
+ul#asd{
+  display: inline;
+}
