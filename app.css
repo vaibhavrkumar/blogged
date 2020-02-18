@@ -4,61 +4,112 @@ html{
     font-family: 'Sriracha', cursive;
 }
 
+body{
+    background-color: #d2eeff;
+}
+
+a#toplinks{
+    text-decoration: none;
+
+}
+
 header{
     display: flex;
     justify-content: space-between;
+    animation: 1s fadein 0.5s forwards;
+    opacity: 0;
+}
+
+@keyframes fadein{
+	100%{
+		opacity: 1;
+	}
 }
 
 ul#menu li{
     display: inline;
-    padding:0.5em;
+    padding:1.0em;
 }
 
 nav{
     list-style: none;
 }
 
+/* Landing Section */
+
 .landingPage{
-    background-color:#94dbc6;
+    /* background-color:#94dbc6; */
+    opacity: 0;
+    animation: 1s slidefade 1s forwards;
+}
+
+@keyframes slidefade{
+	100% {
+		opacity: 1;
+		margin:0;
+	}
 }
 
 .landingPage h5{
     font-size: 3em;
     padding: 0.5em;
-    padding-left: 4em;
+    padding-left: 6.6em;
 }
 
 .landingPage h4{
     font-size: 1em;
     padding: 0.5em;
-    padding-left: 36em;
-    padding-top: 0.1em;
+    padding-left: 31em;
+    padding-bottom: 4em;
 }
 
 #button{
     background-color: #4CAF50;
     border: none;
     color: white;
-    padding: 15px 32px;
-    text-align: center
-    text-decoration: none;
+    /* padding: 19px 32px; */
+    text-align: center text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    margin-left: 45em;
+    margin-left: 44em;
+    margin-bottom: 3em;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    padding-right: 4.5em;
+    padding-left: 4.5em;
 }
 
+section:nth-child(odd) {
+    background-color: white;
+}
+/* offer section */
+
 .offers{
-    /* font-size: 2em; */
-    background-color: beige;
     font-family: 'Slabo 27px', serif;
+    margin-bottom: -1em;
+    padding-bottom: 1.5em;
+    margin-right: -1em;
+    margin-left: -1em;
+}
+
+h1#topbar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1.5em;
+
+}
+
+h3#topbar{
+    display: flex;
+    justify-content: space-around;
 }
 
 h3#title{
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-    padding-left: 27em;
+    padding-left: 23em;
     font-size: 1.5em;
 }
 
@@ -76,3 +127,52 @@ hr{
 
 }
 
+.offers .grid li{
+   /* display: flex; */
+   list-style: none;
+   padding-left: 32em;
+   margin-bottom: 0.4em;
+}
+
+h4:nth-child(2){
+    display: inline;
+    padding-left: 1em;
+}
+
+/* footer Section */
+footer{
+    background-color: black;
+    color: white;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    font-family: 'Slabo', serif;
+    margin-right: -1em;
+    margin-left: -1em;
+    margin-bottom: -2em;
+    margin-top: 1em;
+}
+
+footer li{
+    list-style: none;
+    display: inline;
+    padding: 0.2em;
+}
+
+/* div#foot {
+    width: 1650px;
+} */
+
+li#footright{
+    margin-left: 52em;
+    padding-right: 0.6em;
+}
+
+div#social{
+    padding-left: 1em;
+}
+
+ul#links{
+    padding-left: 1em;
+}

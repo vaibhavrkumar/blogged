@@ -5,16 +5,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Blogged</title>        
         <link rel="stylesheet" href="app.css">
+        <script src="https://kit.fontawesome.com/f496b41ccf.js" crossorigin="anonymous"></script>
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+
     </head>
     <body>
       <header>
-          <h1>Blogged</h1>
-          <h3>Write Live Blogs</h3>
+          <h1 id="topbar">Blogged</h1>
+          <h3 id="topbar">Write Live Blogs</h3>
           <nav>
             <ul id="menu">
-                <li><a href="#">Write</a></li>
-                <li><a href="#">Read</a></li>
-                <li><a href="#">Sign In</a></li>
+                <li><a href="#" id="toplinks">Write</a></li>
+                <li><a href="#" id="toplinks">Read</a></li>
+                <li><a href="#" id="toplinks">Sign In</a></li>
             </ul>            
           </nav>
       </header>
@@ -34,8 +37,56 @@
         </p>
         <hr>
 
-        <ul class="grid"></ul>
-      </section>
-        
+        <ul class="grid">
+          <li>
+            <i class="fas fa-check-circle"></i>
+            <h4> A voice to the mass</h4>
+          </li>
+          
+          <li>
+            <i class="fas fa-check-circle"></i>
+            <h4> No Ads </h4>
+          </li>
+
+          <li>
+            <i class="fas fa-check-circle"></i>
+            <h4> Regularly Monitored by our team </h4>
+          </li>
+
+          <li>
+            <i class="fas fa-check-circle"></i>
+            <h4> Publish anytime </h4>
+          </li>
+
+          <li>
+            <i class="fas fa-check-circle"></i>
+            <h4> All for free</h4>
+          </li>
+
+        </ul>
+      </section>        
     </body>
+
+    <footer>
+      <div id="foot">
+        <ul>
+          <li id="footleft"> Get Started</li>
+          <li id="footleft"> Sign In</li>
+          <li id="footright"> About Blogged</li>
+          <li id=""> Help</li>
+          <li id=""> Careers</li>
+          <li id=""> Legal</li>
+        </ul>
+        <div id="social">
+          <p>
+            <ul id="links">
+              <li>Follow us: </li>  
+              <li><i class="fab fa-facebook"></i></li>
+              <li><i class="fab fa-instagram"></i></li>
+              <li id="footright"> &copy; Blogged 2020</li>
+            </ul>
+          </p>          
+        </div>
+      </div>
+    </footer>
 </html>
