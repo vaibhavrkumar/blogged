@@ -3,8 +3,10 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="signincss.css">
+    <link rel="stylesheet" href="email.css">
     <script src="https://kit.fontawesome.com/f496b41ccf.js" crossorigin="anonymous"></script>
-    <title>Blogged-SignUp</title>
+    <script type="text/javascript" src="app.js"></script>
+    <title>Email SignUp</title>
   </head>
   <header>
     <img class="logo" src="logoE.png" alt="Blogged Logo">
@@ -14,6 +16,23 @@
     <h1>Fill up Your Details Below:</h1>
     <p>Create an account to make Blogs, to share Blogs and to comment on Blogs</p>
     <br>
+
+    <!-- email form -->
+
+    <form action="" name="emailform">
+      <label for="fname">Email</label><br>
+      <input type="text" id="emailid" name="emailid" placeholder="email id"><br>
+      <label for="lname">Password </label><br>
+      <input type="text" id="password" name="password" placeholder="password"><br>
+      <label for="lname">Repeat Password </label><br>
+      <input type="text" id="password" name="password" placeholder="password"><br>
+
+      <button class="button" name="submitEmail" onclick="Javascript:emailValidate();">
+        Create Account
+      </button>
+    </form>
+
+
     <p>Already have a account? <a href="signIn">Sign in</a></p>
     <p>To make Blogged work, we log user data and share it with service providers. Click “Sign Up” above to accept Blogged's
     <a href="https://policy.medium.com/medium-terms-of-service-9db0094a1e0f">Terms of Service</a> &
@@ -25,7 +44,6 @@
   <br>
   <footer>
     <nav>
-
       </div>
       <ul id="asd">
         <li><a class="a" href="#GetStarted">Get Started</a></li>
