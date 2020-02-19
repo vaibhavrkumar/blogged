@@ -1,0 +1,73 @@
+h1{
+  font-family:"Trebuchet MS";
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+p{
+font-family:"Trebuchet MS";
+  font-size: 1em;
+  text-align: center;
+}
+button.email, button.fb, button.G{
+  font-family:"Trebuchet MS";
+  font-size: 1em;
+  display:block;
+  margin: 0 auto;
+}
+
+img.logo{
+  width: 15em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+header{
+  background-color: black;
+  margin-right: -1em;
+  margin-left: -1em;
+  padding-top: 0.5em;
+  margin-top: -1em;
+}
+
+body{
+  vertical-align: middle;
+}
+footer{
+  background-color: black;
+  font-family:"Trebuchet MS";
+  font-size: 1em;
+  vertical-align: text-bottom;
+  height: 12em;
+  margin-right: -1em;
+  margin-left: -1em;
+
+}
+ul{
+  color: white;
+  list-style: none;
+  margin-left: 2em;
+  display: inline-flex;
+  padding-top: 2em;
+
+}
+ul a:link{
+  color: white;
+  text-decoration: none;
+  padding-left: 2em;
+}
+
+ul a:visited{
+
+  color: white;
+}
+img.aaaa{
+  width: 15em;
+  display: block;
+  margin-left: 75em ;
+  margin-top: -9.5em;
+}
+ul#links li{
+padding-left: 1.5em;
+}
