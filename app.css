@@ -8,7 +8,7 @@ body{
     background-color: #d2eeff;
 }
 
-a#toplinks{
+a{
     text-decoration: none;
     color: white;
 }
@@ -181,6 +181,7 @@ footer li{
 /* div#foot {
     width: 1650px;
 } */
+
 
 li#footright{
     margin-left: 52em;
