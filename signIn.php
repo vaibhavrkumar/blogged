@@ -22,40 +22,14 @@
       <a href="#">Sign-in with Email</a> 
     </button>
     <br>
-    <p>No Account? <a href="signUp.html">Create one</a></p>
+    <p>No Account? <a href="signUp.php">Create one</a></p>
     <br>
     <br>
     <p>To make Blogged work, we log user data and share it with service providers. Click “Sign-in” above to accept Blogged's
     <a href="">Terms of Service</a> &
     <a href="">Privacy Policy</a>.
     </p>
+    <!-- footer -->
+    <?php include('footer.php');?>
   </body>
-  <br>
-  <br>
-  <br>
-  <footer>
-    <nav>
-
-      </div>
-      <ul id="asd">
-        <li><a class="a" href="#GetStarted">Get Started</a></li>
-        <li><a class="b" href="#About">About Blogged</a></li>
-        <li><a class="c" href="#Help">Help</a></li>
-        <li><a class="d" href="#Careers">Careers</a></li>
-        <li><a class="e" href="#Legal">Legal</a></li>
-
-      </ul>
-
-      <p>
-          <ul id="links">
-            <li>Follow us: </li>
-            <li><i class="fab fa-facebook"></i></li>
-            <li><i class="fab fa-instagram"></i></li>
-            <li id="footright"> &copy; Blogged 2020</li>
-          </ul>
-        </p>
-
-    </nav>
-      <img class="aaaa" src="logoE.png" alt="Blogged Logo">
-   </footer>
 </html>

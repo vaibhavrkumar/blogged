@@ -17,7 +17,7 @@
         <ul id="menu">
             <li><a href="#" id="toplinks">Write</a></li>
             <li><a href="#" id="toplinks">Read</a></li>
-            <li><a href="signIn.html" id="toplinks">Sign In</a></li>
+            <li><a href="signIn.php" id="toplinks">Sign In</a></li>
         </ul>            
       </nav>
   </header>
@@ -27,7 +27,7 @@
     <h5>Get smarter about things that intrests you.</h5>
     <h4>Select a topic to read and we will suggest you more.</h4>
 
-    <button id="button"> <a href="signUp.html">Get Started</a> </button>
+    <button id="button"> <a href="signUp.php">Get Started</a> </button>
   </section>
 
   <section class="offers">
@@ -65,28 +65,8 @@
 
     </ul>
   </section>        
-</body>
+  <!-- footer -->
+  <?php include('footer.php');?>
 
-<footer>
-  <div id="foot">
-    <ul>
-      <li id="footleft"> <a href="signUp.html">Get Started</a></li>
-      <li id="footleft"> <a href="signIn.html">Sign In</a></li>
-      <li id="footright"> About Blogged</li>
-      <li id=""> Help</li>
-      <li id=""> Careers</li>
-      <li id=""> Legal</li>
-    </ul>
-    <div id="social">
-      <p>
-        <ul id="links">
-          <li>Follow us: </li>  
-          <li><i class="fab fa-facebook"></i></li>
-          <li><i class="fab fa-instagram"></i></li>
-          <li id="footright"> &copy; Blogged 2020</li>
-        </ul>
-      </p>          
-    </div>
-  </div>
-</footer>
+</body>
 </html>

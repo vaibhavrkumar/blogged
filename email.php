@@ -34,37 +34,12 @@
     </form>
 
 
-    <p>Already have a account? <a href="signIn.html">Sign in</a></p>
+    <p>Already have a account? <a href="signIn.php">Sign in</a></p>
     <p>To make Blogged work, we log user data and share it with service providers. Click “Sign Up” above to accept Blogged's
     <a href="https://policy.medium.com/medium-terms-of-service-9db0094a1e0f">Terms of Service</a> &
     <a href="https://policy.medium.com/medium-privacy-policy-f03bf92035c9">Privacy Policy</a>.
     </p>
+    <!-- footer -->
+    <?php include('footer.php');?>
   </body>
-  <br>
-  <br>
-  <br>
-  <footer>
-    <nav>
-      </div>
-      <ul id="asd">
-        <li><a class="a" href="#GetStarted">Get Started</a></li>
-        <li><a class="b" href="#About">About Blogged</a></li>
-        <li><a class="c" href="#Help">Help</a></li>
-        <li><a class="d" href="#Careers">Careers</a></li>
-        <li><a class="e" href="#Legal">Legal</a></li>
-
-      </ul>
-
-      <p>
-          <ul id="links">
-            <li>Follow us: </li>
-            <li><i class="fab fa-facebook"></i></li>
-            <li><i class="fab fa-instagram"></i></li>
-            <li id="footright"> &copy; Blogged 2020</li>
-          </ul>
-        </p>
-
-    </nav>
-      <img class="aaaa" src="logoE.png" alt="Blogged Logo">
-   </footer>
 </html>
