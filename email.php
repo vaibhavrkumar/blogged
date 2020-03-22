@@ -1,17 +1,7 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="signincss.css">
-    <link rel="stylesheet" href="email.css">
-    <script src="https://kit.fontawesome.com/f496b41ccf.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="app.js"></script>
-    <title>Email SignUp</title>
-  </head>
-  <header>
-    <img class="logo" src="logoE.png" alt="Blogged Logo">
-  </header>
+<!-- header -->
+<?php include('header.php');?>
+
+<!-- body -->
   <body>
     <a name="SignUp"></a>
     <h1>Fill up Your Details Below:</h1>
@@ -39,7 +29,6 @@
     <a href="https://policy.medium.com/medium-terms-of-service-9db0094a1e0f">Terms of Service</a> &
     <a href="https://policy.medium.com/medium-privacy-policy-f03bf92035c9">Privacy Policy</a>.
     </p>
-    <!-- footer -->
-    <?php include('footer.php');?>
   </body>
-</html>
+  <!-- footer -->
+  <?php include('footer.php');?>

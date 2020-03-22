@@ -1,27 +1,8 @@
-<!DOCTYPE html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Blogged</title>        
-    <link rel="stylesheet" href="app.css">
-    <script src="https://kit.fontawesome.com/f496b41ccf.js" crossorigin="anonymous"></script>
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
-</head>
+<!-- header -->
+<?php include('header.php');?>
 
+<!-- body -->
 <body>
-  <header>
-      <img src="logo.png" alt="logo">
-      <h3 id="topbar">Write Live Blogs</h3>
-      <nav>
-        <ul id="menu">
-            <li><a href="#" id="toplinks">Write</a></li>
-            <li><a href="#" id="toplinks">Read</a></li>
-            <li><a href="signIn.php" id="toplinks">Sign In</a></li>
-        </ul>            
-      </nav>
-  </header>
-
   <section class="landingPage">
     <div class="background-image" style="background-image: url(unsplash.jpg);"></div>
     <h5>Get smarter about things that intrests you.</h5>
@@ -64,9 +45,7 @@
       </li>
 
     </ul>
-  </section>        
-  <!-- footer -->
-  <?php include('footer.php');?>
-
+  </section>       
 </body>
-</html>
+ <!-- footer -->
+ <?php include('footer.php');?>
