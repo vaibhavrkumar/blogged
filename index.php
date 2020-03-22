@@ -1,3 +1,23 @@
+<!-- connect to databses -->
+<?php
+  //connect to databses
+  $conn = mysqli_connect('localhost', 'phpCoder', 'test1234', 'blogged_db');
+
+  // validate if connection is established
+  if(!$conn){
+    echo 'Connection error: ' . mysqli_connect_error();
+  }
+  //write queries here
+  $sql = 'SELECT username FROM users';
+  //store in var result
+  $result = mysqli_query($conn, $sql);
+  //fetch as an array
+  $users = mysqli_fetch_all($result, MYSQLI_ASSOC);
+  //free the memory
+  mysqli_free_result($result);
+  //close cnx
+  mysqli_close($conn);
+?>
 <!-- header -->
 <?php include('header.php');?>
 
