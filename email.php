@@ -9,16 +9,18 @@
     <br>
 
     <!-- email form -->
-
-    <form action="" name="emailform">
-      <label for="fname">Email</label><br>
+    <?php require_once('config/process.php'); ?>
+    <form action="config/process.php" name="emailform" method="POST">
+      <label>Email</label><br>
       <input type="text" id="emailid" name="emailid" placeholder="email id"><br>
-      <label for="lname">Password </label><br>
+      <label>Username</label><br>
+      <input type="text" id="username" name="username" placeholder="username"><br>
+      <label>Password </label><br>
       <input type="text" id="password" name="password" placeholder="password"><br>
-      <label for="lname">Repeat Password </label><br>
-      <input type="text" id="password" name="password" placeholder="password"><br>
+      <label>Repeat Password </label><br>
+      <input type="text" id="password" name="repeatPassword" placeholder="password"><br>
 
-      <button class="button" name="submitEmail" onclick="Javascript:emailValidate();">
+      <button class="button" type="submit" name="submitEmail" onclick="Javascript:emailValidate();">
         Create Account
       </button>
     </form>
