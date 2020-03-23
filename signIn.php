@@ -10,7 +10,7 @@
   <button class="fb" onclick="window.location.href='https://www.facebook.com/login.php?skip_api_login=1&api_key=542599432471018&kid_directed_site=0&app_id=542599432471018&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv3.3%2Fdialog%2Foauth%3Fclient_id%3D542599432471018%26redirect_uri%3Dhttps%253A%252F%252Fmedium.com%252Fm%252Fcallback%252Ffacebook%26scope%3Dpublic_profile%252Cemail%26state%3D%257Chttps%253A%252F%252Fmedium.com%252F%253Fsource%253D--------------------------landing_home_nav-%257Cregister%257Cf1d6d83ce7662ff3351b12238f034753%26response_type%3Dtoken%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D9c184312-3ac8-4937-93c4-c70b8702f02a&cancel_url=https%3A%2F%2Fmedium.com%2Fm%2Fcallback%2Ffacebook%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257Chttps%253A%252F%252Fmedium.com%252F%253Fsource%253D--------------------------landing_home_nav-%257Cregister%257Cf1d6d83ce7662ff3351b12238f034753%23_%3D_&display=page&locale=en_US&pl_dbl=0';"type="button" name="button">Sign-in with Facebook</button>
   <br>
   <button class="email" onclick="https://www.yahoo.com"type="button" name="button">
-    <a href="#">Sign-in with Email</a> 
+    <a href="login.php">Sign-in with Email</a> 
   </button>
   <br>
   <p>No Account? <a href="signUp.php">Create one</a></p>

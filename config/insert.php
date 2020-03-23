@@ -1,4 +1,4 @@
-<!-- this file controls Create User via email form -->
+<!-- inserts new user into DB -->
 <?php
     //require('email.php');
     require('db_connect.php');    
