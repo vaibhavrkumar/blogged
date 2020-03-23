@@ -1,9 +1,12 @@
 <?php
-    //connect to databses
-    $conn = mysqli_connect('localhost', 'phpCoder', 'test1234', 'blogged_db');
+    // //connect to databses
+    require('cnxdetails.php');
+    $conn = mysqli_connect($host, $user, $pass, $database);
 
     // validate if connection is established
-    if(!$conn){
-    echo 'Connection error: ' . mysqli_connect_error();
-    }
+    $error = mysqli_connect_error();
+    if($error!=null){
+    $output = "<p> Database connection failed! </p>" .$error;
+    exit($output);
+    } 
 ?>

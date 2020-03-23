@@ -9,16 +9,16 @@
     <br>
 
     <!-- email form -->
-    <?php require_once('config/process.php'); ?>
-    <form action="config/process.php" name="emailform" method="POST">
+    <?php require_once('config/insert.php'); ?>
+    <form action="config/insert.php" name="emailform" method="POST">
       <label>Email</label><br>
-      <input type="text" id="emailid" name="emailid" placeholder="email id"><br>
+      <input type="text" id="emailid" name="emailid" placeholder="email id" required><br>
       <label>Username</label><br>
-      <input type="text" id="username" name="username" placeholder="username"><br>
+      <input type="text" id="username" name="username" placeholder="username" required><br>
       <label>Password </label><br>
-      <input type="text" id="password" name="password" placeholder="password"><br>
+      <input type="text" id="password" name="password" placeholder="password" required><br>
       <label>Repeat Password </label><br>
-      <input type="text" id="password" name="repeatPassword" placeholder="password"><br>
+      <input type="text" id="password" name="repeatPassword" placeholder="password" required><br>
 
       <button class="button" type="submit" name="submitEmail" onclick="Javascript:emailValidate();">
         Create Account
