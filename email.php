@@ -9,8 +9,8 @@
     <br>
 
     <!-- email form -->
-    <?php require_once('config/insert.php'); ?>
-    <form action="config/insert.php" name="emailform" method="POST">
+    <?php require_once('config/processRegister.php'); ?>
+    <form action="config/processRegister.php" name="emailform" method="POST">
       <label>Email</label><br>
       <input type="text" id="emailid" name="emailid" placeholder="email id" required><br>
       <label>Username</label><br>
