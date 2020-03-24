@@ -21,7 +21,7 @@
         <label>Repeat Password </label><br>
         <input type="text" id="password" name="repeatPassword" placeholder="password" required><br>
 
-        <button class="button" type="submit" name="submitEmail" onclick="Javascript:emailValidate();">
+        <button class="button" type="submit" name="submitEmail">
           Create Account
         </button>
       </form>
@@ -29,8 +29,8 @@
 
       <p>Already have a account? <a href="signIn.php">Sign in</a></p>
       <p>To make Blogged work, we log user data and share it with service providers. Click “Sign Up” above to accept Blogged's
-      <a href="https://policy.medium.com/medium-terms-of-service-9db0094a1e0f">Terms of Service</a> &
-      <a href="https://policy.medium.com/medium-privacy-policy-f03bf92035c9">Privacy Policy</a>.
+      <a href="#">Terms of Service</a> &
+      <a href="#">Privacy Policy</a>.
       </p>
     </section>
   </body>

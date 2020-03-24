@@ -1,16 +1,16 @@
 <!-- connect to databses -->
 <?php
-  include('config/db_connect.php');
-  //write queries here
-  $sql = 'SELECT username FROM users';
-  //store in var result
-  $result = mysqli_query($conn, $sql);
-  //fetch as an array
-  $users = mysqli_fetch_all($result, MYSQLI_ASSOC);
-  //free the memory
-  mysqli_free_result($result);
-  //close cnx
-  mysqli_close($conn);
+  // include('config/db_connect.php');
+  // //write queries here
+  // $sql = 'SELECT username FROM users';
+  // //store in var result
+  // $result = mysqli_query($conn, $sql);
+  // //fetch as an array
+  // $users = mysqli_fetch_all($result, MYSQLI_ASSOC);
+  // //free the memory
+  // mysqli_free_result($result);
+  // //close cnx
+  // mysqli_close($conn);
 ?>
 <!-- header -->
 <?php include('header.php');?>
