@@ -5,6 +5,7 @@
     if(isset($_POST['submitEmail'])){
         $loginEmail = $_POST['loginemail'];
         $loginPassword = $_POST['loginpass'];
+        $loginPassword = sha1($loginPassword);
         //query
         $sqlOne = "select email, password_string, username from users where email = '$loginEmail' and password_string = '$loginPassword'";
         $result = mysqli_query($conn, $sqlOne) or trigger_error($conn->error."[ $sqlOne]");

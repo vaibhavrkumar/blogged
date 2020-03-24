@@ -12,7 +12,7 @@
         //check if the form is empty
         if($email != "" && $username != "" && $password != ""){
             //encrypt the password
-            $passwordEnc = sha1($password);
+            $password = sha1($password);
             //construct the query
             $sql = "insert into users(username,email,password_string) values(?,?,?)";
 
