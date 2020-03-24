@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Blogged</title>        
-    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="../stylesheets/app.css">
     <script src="https://kit.fontawesome.com/f496b41ccf.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 </head>
@@ -19,8 +19,8 @@
             <li><a href="#">Trending</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-            <li><a href="signUp.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-            <li><a href="signIn.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            <li><a href="../nonuserView/signUp.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="../nonuserView/signIn.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
             </ul>
         </div>
     </nav>

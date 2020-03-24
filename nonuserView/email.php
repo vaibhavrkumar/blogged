@@ -1,5 +1,5 @@
 <!-- header -->
-<?php include('header.php');?>
+<?php include('../partials/header.php');?>
 
 <!-- body -->
   <body>
@@ -10,8 +10,8 @@
       <br>
 
       <!-- email form -->
-      <?php require_once('config/processRegister.php'); ?>
-      <form action="config/processRegister.php" name="emailform" method="POST">
+      <?php require_once('../config/processRegister.php'); ?>
+      <form action="../config/processRegister.php" name="emailform" method="POST">
         <label>Email</label><br>
         <input type="text" id="emailid" name="emailid" placeholder="email id" required><br>
         <label>Username</label><br>
@@ -35,4 +35,4 @@
     </section>
   </body>
   <!-- footer -->
-  <?php include('footer.php');?>
+  <?php include('../partials/footer.php');?>

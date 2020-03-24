@@ -1,5 +1,5 @@
 <!-- header -->
-<?php include('header.php');?>
+<?php include('../partials/header.php');?>
 
 <!-- body -->
 <body>
@@ -26,6 +26,6 @@
     </p>
   </section>
   <!-- footer -->
-  <?php include('footer.php');?>
+  <?php include('../partials/footer.php');?>
 </body>
 

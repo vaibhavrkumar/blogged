@@ -13,7 +13,7 @@
   // mysqli_close($conn);
 ?>
 <!-- header -->
-<?php include('header.php');?>
+<?php include('../partials/header.php');?>
 
 <!-- body -->
 <body>
@@ -63,4 +63,4 @@
   </section>       
 </body>
  <!-- footer -->
- <?php include('footer.php');?>
+ <?php include('../partials/footer.php');?>
