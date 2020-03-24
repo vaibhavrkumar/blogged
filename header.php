@@ -9,15 +9,19 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 </head>
 <header>
-    <a href="index.php">
-        <img src="logo.png" alt="logo">
-    </a>      
-    <h3 id="topbar">Write Live Blogs</h3>
-    <nav>
-    <ul id="menu">
-        <li><a href="#" id="toplinks">Write</a></li>
-        <li><a href="#" id="toplinks">Read</a></li>
-        <li><a href="signIn.php" id="toplinks">Sign In</a></li>
-    </ul>            
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+            <a class="navbar-brand" href="index.php">Blogged</a>
+            </div>
+            <ul class="nav navbar-nav">
+            <li><a href="#">Top Stories</a></li>
+            <li><a href="#">Trending</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+            <li><a href="signUp.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="signIn.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+        </div>
     </nav>
 </header>

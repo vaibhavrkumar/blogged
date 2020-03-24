@@ -17,6 +17,7 @@
 
 <!-- body -->
 <body>
+  <!-- Landing Page -->
   <section class="landingPage">
     <div class="background-image" style="background-image: url(unsplash.jpg);"></div>
     <h5>Get smarter about things that intrests you.</h5>

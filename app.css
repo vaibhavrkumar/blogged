@@ -34,8 +34,9 @@ img{
     padding-left: 1em;
     padding-bottom: 1em;
     width: 10em;
-    height: 4em;
+    height: 14em;
 }
+
 
 @keyframes fadein{
 	100%{
@@ -45,11 +46,17 @@ img{
 
 ul#menu li{
     display: inline;
-    padding:1.0em;
+    /* padding-left: 1.0em;     */
 }
 
-nav{
+/* nav{
     list-style: none;
+} */
+
+#tabLinks{
+    display: flex;
+    justify-content: space-around;
+
 }
 
 /* Landing Section */
@@ -120,6 +127,8 @@ h1#topbar{
 }
 
 h3#topbar{
+    padding-top: 0em;
+    margin-top: -3em;
     display: flex;
     justify-content: space-around;
 }
