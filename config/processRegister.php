@@ -4,10 +4,18 @@
     require('db_connect.php');    
     
     if(isset($_POST['submitEmail'])){
-        //prepared statement 
+        //retrieve info. from the form
         $email = $_POST['emailid'];
         $username = $_POST['username'];
         $password = $_POST['password'];
+
+        //check if the form is empty
+        if($email != "" && $username != "" && $password != ""){
+            echo "<div> <div>";
+        }
+        else{
+        
+        }
 
         //construct the query
         $sql = "insert into users(username,email,password_string) values(?,?,?)";
