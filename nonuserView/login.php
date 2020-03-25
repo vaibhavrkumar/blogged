@@ -2,10 +2,11 @@
 <?php session_start();
 include('../partials/header.php');?>
 
-<?php if(isset($_SESSION['loginEmail'])):?>
+<?php $_SESSION['login_user'] = $loginEmail?>
+<?php if($_SESSION['login_user']):?>
     <?php header('../userView/dashboard.php')?>
 <?php else:?>
-<?php print_r($_SESSION);?>
+<?php print_r($_SESSION)?>
 <body>
     <section class="emailLogin">
         <h2>Login with Email</h2>
@@ -22,4 +23,4 @@ include('../partials/header.php');?>
  <!-- footer -->
  <?php include('../partials/footer.php');?>
 
-<?php endif;?>
+ <?php endif;?>

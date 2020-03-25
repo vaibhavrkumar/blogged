@@ -1,5 +1,5 @@
 <!-- Log in exsisting user -->
-<?php
+<?php 
     require('db_connect.php');   
     
     if(isset($_POST['submitEmail'])){
