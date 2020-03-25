@@ -15,6 +15,7 @@
             <a class="navbar-brand" href="index.php">Blogged</a>
             </div>
             <ul class="nav navbar-nav">
+            <li><a href="#">Home</a></li>
             <li><a href="#">Top Stories</a></li>
             <li><a href="#">Trending</a></li>
             </ul>
