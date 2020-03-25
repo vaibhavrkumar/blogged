@@ -1,5 +1,5 @@
 <!-- header -->
-<?php include('../partials/header.php');?>
+<?php include('../partials/customHeader.php');?>
 <!-- Body -->
 <div class="createBlogDiv" style="border:1px solid black;">
     <h1>New Blog</h1>

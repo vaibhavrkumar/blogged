@@ -1,6 +1,11 @@
 <!-- header -->
-<?php include('../partials/header.php');?>
+<?php session_start();
+include('../partials/header.php');?>
 
+<?php if(isset($_SESSION['loginEmail'])):?>
+    <?php header('../userView/dashboard.php')?>
+<?php else:?>
+<?php print_r($_SESSION);?>
 <body>
     <section class="emailLogin">
         <h2>Login with Email</h2>
@@ -16,3 +21,5 @@
 </body>
  <!-- footer -->
  <?php include('../partials/footer.php');?>
+
+<?php endif;?>

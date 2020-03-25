@@ -13,7 +13,8 @@
         $numRows = mysqli_num_rows($result);
 
         if($numRows == 1){
-            echo "Welcome User";
+            // echo "Weelcomne";
+            header('Location: ../userView/dashboard.php');
         }
         else{
             echo "User not found";

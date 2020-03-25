@@ -12,12 +12,14 @@
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="navbar-header">
-            <a class="navbar-brand" href="index.php">Blogged</a>
+                <a class="navbar-brand" href="../nonuserView/index.php">Blogged</a>
             </div>
-            <ul class="nav navbar-nav navbar-right">
-            <li><a href="../nonuserView/signUp.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-            <li><a href="../nonuserView/signIn.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            <ul class="nav navbar-nav">
+                <li><a href="../userView/dashboard.php">Dashboard</a></li>                
             </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="../userView/logout.php"><span class="glyphicon glyphicon-user"></span> Log out</a></li>
+            </ul>           
         </div>
     </nav>
 </header>

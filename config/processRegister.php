@@ -23,10 +23,8 @@
             $stmt->execute();
             //check if query was executed successfully
             if($stmt){                
-                header('Location: ../login.php');
-                echo "<div class='alert alert-success'>
-                <strong>Success!</strong> Indicates a successful or positive action.
-                </div>";
+                header('Location: ../nonuserView/login.php');
+                echo "Account Created!";
             }
             else{
                 echo "Error in creating acc.";
