@@ -1,12 +1,12 @@
-<?php session_start();?>
-
-<?php if(!$_SESSION['loginEmail']):?>
-    <?php header('Location: ../nonuserView/login.php');?>
-<?php else:?>
-<!-- header -->
-<?php include('../partials/customHeader.php');?>
-    <p>Welcome <?php echo $_SESSION['loginEmail'];?> </p>
-<!-- footer -->
-<?php include('../partials/footer.php');?>
-
-<?php endif;?>
+<?php session_start();
+    if(!$_SESSION['login_user']){
+        header('Location: ../nonuserView/login.php');
+    }
+    else{
+        //header
+        include('../partials/customHeader.php');
+        echo "Dashboard";
+        //footer
+        include('../partials/footer.php');
+    }
+?>

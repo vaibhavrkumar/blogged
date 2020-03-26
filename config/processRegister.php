@@ -7,12 +7,12 @@
         //retrieve info. from the form
         $email = $_POST['emailid'];
         $username = $_POST['username'];
-        $password = $_POST['password'];
+        $defpassword = $_POST['password'];
 
         //check if the form is empty
-        if($email != "" && $username != "" && $password != ""){
+        if($email != "" && $username != "" && $defpassword != ""){
             //encrypt the password
-            $password = sha1($password);
+            $password = password_hash($defpassword, PASSWORD_DEFAULT);
             //construct the query
             $sql = "insert into users(username,email,password_string) values(?,?,?)";
 
@@ -29,13 +29,13 @@
             else{
                 echo "Error in creating acc.";
             }
+             //close the statement
+            $stmt->close();
         }
         else{
-            $error = "Please fill all thee details.";
+            $error = "Please fill all the details.";
         }
-
-        //close the statement
-        $stmt->close();
+               
         //close cnx
         mysqli_close($conn);
     }

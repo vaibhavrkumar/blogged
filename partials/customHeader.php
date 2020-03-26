@@ -16,6 +16,7 @@
             </div>
             <ul class="nav navbar-nav">
                 <li><a href="../userView/dashboard.php">Dashboard</a></li>                
+                <li><a href="../userView/createBlog.php">New Blog</a></li>                
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="../userView/logout.php"><span class="glyphicon glyphicon-user"></span> Log out</a></li>
