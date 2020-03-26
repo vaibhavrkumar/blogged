@@ -1,12 +1,5 @@
 # blogged
- A simple Blogging Platform made using HTML/CSS
-
+Important: Make sure to commit changes to your personal branch and not the master branch.
 
 # Navigation
-index.html - Base Html document 
-
-app.css - CSS file that corresponds to Html doc
-
-app.js - JS file that corresponds to Html doc
-
-DB/blogDB.sql - Write schemas in this file
+nonuserView/index.html - Home Page 
