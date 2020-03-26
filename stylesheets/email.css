@@ -1,6 +1,8 @@
+ /* forn styles */
 form{
     color: black;
     margin-left: 37em;
+    font-size: 1.2em;
 }
 
 input#password{

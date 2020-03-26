@@ -1,0 +1,158 @@
+/* CSS for Blogged */
+
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-color: #d2eeff;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    animation: 1s fadein 0.5s forwards;
+    opacity: 0;
+    background-color: black;
+    color: white;
+    margin-left: -1em;
+    margin-right: -1em;
+    margin-top: -1em;
+    padding-right: 2em;
+    padding-top: 0.5em;
+    justify-items: center;
+    padding-left: 3em;
+}
+
+img{
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    width: 10em;
+    height: 4em;
+}
+
+@keyframes fadein{
+	100%{
+		opacity: 1;
+	}
+}
+
+ul#menu li{
+    display: inline;
+    padding:1.0em;
+}
+
+nav{
+    list-style: none;
+}
+
+/* Landing Section */
+
+.landingPage{
+    /* background-color:#94dbc6; */
+    opacity: 0;
+    animation: 1s slidefade 1s forwards;
+}
+
+@keyframes slidefade{
+	100% {
+		opacity: 1;
+		margin:0;
+	}
+}
+
+.landingPage h5{
+    font-size: 3em;
+    padding: 0.5em;
+    padding-left: 6.6em;
+}
+
+.landingPage h4{
+    font-size: 1em;
+    padding: 0.5em;
+    padding-left: 29em;
+    padding-bottom: 4em;
+}
+
+#button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 19px 32px;
+    text-align: center 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 44em;
+    margin-bottom: 3em;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    padding-right: 4.5em;
+    padding-left: 4.5em;
+}
+
+section:nth-child(odd) {
+    background-color: white;
+}
+/* offer section */
+
+.offers{
+    font-family: 'Slabo 27px', serif;
+    margin-bottom: -1em;
+    padding-bottom: 1.5em;
+    margin-right: -1em;
+    margin-left: -1em;
+}
+
+h1#topbar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1.5em;
+    margin-left: -12em;
+}
+
+h3#topbar{
+    display: flex;
+    justify-content: space-around;
+}
+
+h3#title{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 23em;
+    font-size: 1.5em;
+}
+
+p#para{
+    font-size: 1.2em;
+    padding-left: 27.7em;
+    padding-right: 27.7em;
+    padding-top: 0em;
+    padding-bottom: 0.5em;
+    padding-top: 0em;
+}
+
+hr{
+    width: 22em;
+
+}
+
+.offers .grid li{
+   /* display: flex; */
+   list-style: none;
+   padding-left: 32em;
+   margin-bottom: 0.4em;
+}
+
+h4:nth-child(2){
+    display: inline;
+    padding-left: 1em;
+}

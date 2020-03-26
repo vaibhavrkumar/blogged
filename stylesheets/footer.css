@@ -1,0 +1,38 @@
+
+/* footer Section */
+footer{
+    background-color: black;
+    color: white;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    font-family: 'Slabo', serif;
+    margin-right: -1em;
+    margin-left: -1em;
+    margin-bottom: -2em;
+}
+
+footer li{
+    list-style: none;
+    display: inline;
+    padding: 0.2em;
+}
+
+/* div#foot {
+    width: 1650px;
+} */
+
+
+li#footright{
+    margin-left: 52em;
+    padding-right: 0.6em;
+}
+
+div#social{
+    padding-left: 1em;
+}
+
+ul#links{
+    padding-left: 1em;
+}
