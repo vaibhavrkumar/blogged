@@ -10,10 +10,11 @@ CREATE TABLE users(
 CREATE TABLE posts(
     id INTEGER NOT NULL AUTO_INCREMENT,
     user_id INTEGER NOT NULL,
-    username INTEGER NOT NULL,
+    title_str VARCHAR(500) NOT NULL,
+    body_str VARCHAR(500) NOT NULL,
     created_at TIMESTAMP DEFAULT NOW(),
     PRIMARY KEY (id),
-    FOREIGN KEY (user_id) REFERENCES users (id)
+    FOREIGN KEY (user_id) REFERENCES usersTwo (id)
 );
 
 CREATE TABLE avatars(
@@ -23,7 +24,7 @@ CREATE TABLE avatars(
     username INTEGER NOT NULL,
     created_at TIMESTAMP DEFAULT NOW(),
     PRIMARY KEY (id),
-    FOREIGN KEY (user_id) REFERENCES users(id)
+    FOREIGN KEY (user_id) REFERENCES usersTwo(id)
 );
 
 CREATE TABLE comments(
@@ -34,5 +35,5 @@ CREATE TABLE comments(
 	avatar_id INTEGER NOT NULL,
 	created_at TIMESTAMP DEFAULT NOW(),
 	PRIMARY KEY (id),
-	FOREIGN KEY (user_id) REFERENCES users(id)
+	FOREIGN KEY (user_id) REFERENCES usersTwo(id)
 );
