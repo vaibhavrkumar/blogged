@@ -18,18 +18,16 @@
                 $body = $row['body_str'];
                 $post_id = $row['id'];
 ?>
-    <!-- html tag for displaying posts -->
-    <div class="row">            
-        <div class="col-lg-5">
-            <!-- Displaying each posts -->
-            <strong> <?php echo $title; ?> </strong>                
-            <p> <?php echo $body; ?> </p>   
-            <!-- Edit and Delete  -->
-            <button><a href=../userView/viewBlog.php?id=<?php echo $post_id;?>>View</a></button>
-            <button><a href=../userView/editBlog.php?id=<?php echo $post_id;?>>Edit</a></button>
-            <button><a href=../userView/deleteBlog.php?id=<?php echo $post_id;?>>Delete</a></button>
+        <!-- html tag for displaying posts -->
+        <div class="row" style="margin-left:1em;">            
+            <div class="col-lg-5">
+                <!-- Displaying each posts -->
+                <strong> <?php echo $title; ?> </strong>                
+                <p> <?php echo $body; ?> </p>   
+                <!-- Edit and Delete  -->
+                <button class="btn btn-info"><a href=../userView/viewBlog.php?id=<?php echo $post_id;?>>Read Blog</a></button>                         
+            </div>
         </div>
-    </div>
 
 <?php               
             }

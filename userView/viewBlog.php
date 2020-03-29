@@ -23,14 +23,20 @@
 ?>
 
     <div class="createBlogDiv" style="border:1px solid black;">
-        <h1> <?php echo $title;?> </h1>
-        <h4> <?php echo $body; ?> </h4>  
+        <h1 style="font-size:5em"> <b> <?php echo $title;?> </b> </h1> <br>
+        <p style="font-size:2em"> <?php echo $body; ?> </p> <br>        
+        <a href=../userView/editBlog.php?id=<?php echo $post_id;?>>
+            <button class="btn btn-primary" style="margin-left: 60em;">EDIT</button>
+        </a> 
+        <a href=../userView/deleteBlog.php?id=<?php echo $post_id;?>>
+            <button class="btn btn-danger">DELETE</button>
+        </a>
     </div>
-            
+                
 <?php        
         }
     }
-    //footer
+    //footer    
     include('../partials/footer.php');
 }
 ?>
