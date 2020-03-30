@@ -10,17 +10,17 @@
     $post_id = $_GET['id'];
     //var_dump($post_id);
 
-        //retrieve specific post
-        $sql = "select * from posts where id = '$post_id'";
-        $result = $conn->query($sql) or die($conn->error);
+    //retrieve specific post
+    $sql = "select * from posts where id = '$post_id'";
+    $result = $conn->query($sql) or die($conn->error);
 
-        
-        if(mysqli_num_rows($result)>0){
-            while($row = $result->fetch_assoc()){
-                $title = $row['title_str'];
-                $body = $row['body_str'];
-                //$post_id = $row['id'];
-                //echo $title;
+    
+    if(mysqli_num_rows($result)>0){
+        while($row = $result->fetch_assoc()){
+            $title = $row['title_str'];
+            $body = $row['body_str'];
+            //$post_id = $row['id'];
+            //echo $title;
 ?>
     <!-- Body -->
     <div class="createBlogDiv" style="border:1px solid black;">

@@ -29,8 +29,8 @@
             <button class="btn btn-primary" style="margin-left: 60em;">EDIT</button>
         </a> 
         <a href=../userView/deleteBlog.php?id=<?php echo $post_id;?>>
-            <button class="btn btn-danger">DELETE</button>
-        </a>
+            <button class="btn btn-danger">DELETE</button>                        
+        </a>        
     </div>
                 
 <?php        
