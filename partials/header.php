@@ -16,7 +16,7 @@
             </div>
             <ul class="nav navbar-nav navbar-right">
             <li><a href="../nonuserView/signUp.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-            <li><a href="../nonuserView/signIn.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            <li><a href="../nonuserView/signIn.php"><span class="glyphicon glyphicon-log-in"></span> Sign In</a></li>
             </ul>
         </div>
     </nav>

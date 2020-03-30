@@ -10,7 +10,7 @@
     $_SESSION['login_user'] = $loginEmail;
 
     //query
-    $sqlOne = "select email, password_string, username from users where email = '$loginEmail'";
+    $sqlOne = "select email, password_string, username from usersTwo where email = '$loginEmail'";
     $result = mysqli_query($conn, $sqlOne) or trigger_error($conn->error."[ $sqlOne]");
     $user = mysqli_fetch_row($result);
     //validate unique user

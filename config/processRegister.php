@@ -14,7 +14,7 @@
             //encrypt the password
             $password = password_hash($defpassword, PASSWORD_DEFAULT);
             //construct the query
-            $sql = "insert into users(username,email,password_string) values(?,?,?)";
+            $sql = "insert into usersTwo(username,email,password_string) values(?,?,?)";
 
             $stmt = $conn->prepare($sql);
             //bind variable
@@ -27,8 +27,10 @@
                 echo "Account Created!";
             }
             else{
-                echo "Error in creating acc.";
+                echo "Error in creating account.";
             }
+
+        
              //close the statement
             $stmt->close();
         }
