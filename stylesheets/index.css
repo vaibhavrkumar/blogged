@@ -54,10 +54,12 @@ nav{
 
 /* Landing Section */
 
-.landingPage{
+.landingPage section{
     /* background-color:#94dbc6; */
     opacity: 0;
     animation: 1s slidefade 1s forwards;
+    width: 200px;
+
 }
 
 @keyframes slidefade{
@@ -85,7 +87,7 @@ nav{
     border: none;
     color: white;
     padding: 19px 32px;
-    text-align: center 
+    text-align: center; 
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
@@ -99,9 +101,7 @@ nav{
     padding-left: 4.5em;
 }
 
-section:nth-child(odd) {
-    background-color: white;
-}
+
 /* offer section */
 
 .offers{

@@ -5,11 +5,48 @@
 <!-- header -->
 <?php include('../partials/header.php');?>
 
+<!-- link style sheets -->
+
+<!-- Load React. -->
+<!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+<script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+
 <!-- body -->
 <body>
+  <!-- React -->
+  <div id="app"></div>
+        
+  <script type="text/babel">
+      class App extends React.Component {
+          state = {
+              name: "test1",
+              age: 22
+          }
+
+          handleClick(e) {
+              console.log(e.target);
+          }
+
+          render(){
+              return (
+                  <div className="app-content">
+                      <h1> Hi there, {this.state.name} </h1>
+                      <h1>Next year I will be: {this.state.age + 1} years old</h1>
+                      <button onClick= {this.handleClick}> Click me!</button>
+                  </div>
+              )
+          }
+      }
+
+      ReactDOM.render(<App />, document.getElementById('app'));
+  </script>
+  
+  <!-- ... existing HTML ... -->
+
   <!-- Landing Page -->
   <section class="landingPage">
-    <div class="background-image" style="background-image: url(unsplash.jpg);"></div>
+    <!-- <div style="background-image: url('unsplash.jpg');"> -->
     <h5>Get smarter about things that intrests you.</h5>
     <h4>Select a topic to read and we will suggest you more.</h4>
 
